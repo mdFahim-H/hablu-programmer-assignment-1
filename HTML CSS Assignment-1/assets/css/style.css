@@ -1,0 +1,219 @@
+/* Common Style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+i {
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1299px;
+    min-width: 400px;
+    margin: 0px auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.flex-25 {
+    flex: 1 1 25%;
+    height: 100%;
+}
+
+.flex-35 {
+    flex: 1 1 35%;
+    height: 100%;
+}
+
+.flex-50 {
+    flex: 1 1 50%;
+    height: 100%;
+}
+
+.flex-65 {
+    flex: 1 1 65%;
+    height: 100%;
+}
+
+.flex-75 {
+    flex: 1 1 75%;
+    height: 100%;
+}
+
+.flex-100 {
+    flex: 1 1 100%;
+    height: 100%;
+}
+
+/* Common Style */
+
+/* navbar  */
+
+nav .container {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+}
+
+nav .logo {
+    font-size: 30px;
+}
+
+nav .logo h1 {
+    padding-bottom: 3px;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.right-btn {
+    display: flex;
+}
+
+.right-btn .btn {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 36px;
+    margin-right: 10px;
+}
+
+.right-btn .light-btn {
+    color: #000;
+    background-color: #e1e1e1;
+}
+
+.right-btn .dark-btn {
+    color: #fff;
+    background-color: #000;
+}
+
+.right-btn .icon img {
+    width: 36px;
+}
+
+/* header */
+header {
+    background: url("../images/bg.png") no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.header-box {
+    background-color: #fff;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: relative;
+    top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+.container .trans-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-block: 270px auto;
+}
+
+.container .trans-btn .btn {
+    color: #fff;
+    background-color: transparent;
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 10px 25px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
+/* Buy/Sell section */
+
+.buy-sell {
+    width: 100%;
+    height: 400px;
+    background-color: #fde24f;
+}
+
+.buy-sell h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 60px 0px 40px 0px;
+}
+
+.buy-sell .currency-logo {
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
